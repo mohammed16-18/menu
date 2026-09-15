@@ -9,7 +9,7 @@ money.append(int(input()))#user inputs the money list
 total_money =sum(money)#calculate the total money 
 order =input("what do you want to order?")#it will ask the user what they want to order
 if(order in menu):#check if the order is in the menu
-    print("available")#if the order is available
+    print("available")#this executes if the above condition gives true
     if(total_money >= menu[order]):#check if the user has enough money to buy the order
         print("yes you can afford it")#if the user has enough money to buy the order
     else:
